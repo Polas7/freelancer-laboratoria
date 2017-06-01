@@ -1,60 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Start bootstrap</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"><!-- Importa la fuente del proyecto (Raleway) de Google Fonts (https://fonts.google.com) 
-    **font-family: 'Raleway', sans-serif;-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/common.css"><!-- Enlaza tu CSS reutilizable aquí (common.css) -->
-    <link rel="stylesheet" type="text/css" href="css/main.css"><!-- Enlaza tu CSS del proyecto aquí -->
+	<meta charset="UTF-8">
+	<title>Start bootstrap</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"><!-- Importa la fuente del proyecto (Raleway) de Google Fonts (https://fonts.google.com) 
+	**font-family: 'Raleway', sans-serif;-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/common.css"><!-- Enlaza tu CSS reutilizable aquí (common.css) -->
+	<link rel="stylesheet" type="text/css" href="css/main.css"><!-- Enlaza tu CSS del proyecto aquí -->
 </head>
 <body>
-    <!-- nav bar -->
-    <header>
-        <div class="menu container">
-            <a href="#" class="text-uppercase link">Contact</a>
-            <a href="#" class="text-uppercase link">About</a>
-            <a href="#" class="text-uppercase link">Portfolio</a>
-        </div>  
-    </header>  <!-- imagen central --> 
-    <section class="imagen-center">
-     <img src="assets/images/profile.png">   
-     <div class="container">
-        <h1 id= "txt1" class="text-uppercase text-home mb-0">Start Bootsrap</h1>
-        <!--estrellas que nunca se me alinearon :(-->
-        <div class="linea1"></div>
-        <i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
-        <div class="linea2"></div>
-        <div class="text2"><br>            
-            <h2>Web Developer - Graphic Artist - User Experience Designer</h2>      
-        </div>      
-    </div>
+	<!-- nav bar -->
+	<header>
+		<div class="menu container">
+			<a href="#" class="text-uppercase link">Contact</a>
+			<a href="#" class="text-uppercase link">About</a>
+			<a href="#" class="text-uppercase link">Portfolio</a>
+		</div>  
+	</header>  <!-- imagen central --> 
+	<section class="imagen-center">
+	   <img src="assets/images/profile.png">   
+	   <div class="container">
+		<h1 id= "txt1" class="text-uppercase text-home mb-0">Start Bootsrap</h1>
+		<!--estrellas que nunca se me alinearon :(-->
+		<div class="linea1"></div>
+		<i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+		<div class="linea2"></div>
+		<div class="text2"><br>            
+			<h2>Web Developer - Graphic Artist - User Experience Designer</h2>      
+		</div>      
+	</div>
 </section>
 <!-- portafolio-->
 
 <section class="portafolio">
-    <div class="container">
-     <div id="box-services-modal" class="hide"></div>
-     <div class="box-services">
-      <h1 class="txt">PORTAFOLIO</h1>
-      <!--de nuevo con las estrellas y lineas-->
-      <div class="linea1"></div>
-      <i class="fa fa-star-o" aria-hidden="true"></i>
-      <div class="linea2"></div>
-      <<!--cuadricula de imagenes-->
-      <img src="assets/images/portfolio/cabin.png" alt="#"" width="300">
-      <h5 class="mb-0">APPLOVE OF HEART</h5>
+	<div class="container">
+	   <div id="box-services-modal" class="hide"></div>
+	 
+		  <h1 class="txt">PORTAFOLIO</h1>
+	  <!--de nuevo con las estrellas y lineas
+	  <div class="linea1"></div>
+	  <i class="fa fa-star" aria-hidden="true"></i>
+	  <div class="linea2"></div>-->
+	  <!--cuadricula de imagenes al usar la clase class="col-4 como en los trabajos anteriores se me quedaban sobre puestas-->
+
+  <div class="box-services">
+	  <img src="assets/images/portfolio/cabin.png" alt="#"" width="300">
   </div>
   <div class="box-services">
-    <img src="assets/images/portfolio/cake.png" alt="#" width="300">
-    <h5 class="mb-0">APPLOVE OF HEART</h5>
+	<img src="assets/images/portfolio/cake.png" alt="#" width="300">
 </div>
 <div class="box-services">
-    <img src="assets/images/portfolio/circus.png" alt="#" width="300">
-    <h5 class="mb-0">APPLOVE OF HEART</h5>
+	<img src="assets/images/portfolio/circus.png" alt="#" width="300">
+</div>
+<div class="box-services">
+	<img src="assets/images/portfolio/game.png" alt="#" width="300">
+</div>
+<div class="box-services">
+	<img src="assets/images/portfolio/safe.png" alt="#" width="300">
+</div>
+<div class="box-services">
+	<img src="assets/images/portfolio/submarine.png" alt="#" width="300">
 </div>
 </div>
+</section>
+
+<!--about (tratando de empezar arreglar-->
+<section class="acerca">
+	    <div class="row">
+            <div class="col-12 section-acerca">
+		<h1 class="text-uppercase text-home mb-0">About</h1></div>
+	<div class="row">
+    <div class="col-3"></div>
+     <div class="col-3 text-acerca">
+        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheet for easy customization.</div>
+                    
+    <div class="col-3 text-acerca">
+      Whether you're a student looking to showcase you work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+    <div class="col-3"></div>
+     </div>        
+        <button type="button" class="button"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</button></div>      
+   </div>
 </section>
 
 
