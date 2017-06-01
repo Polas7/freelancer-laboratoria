@@ -1,217 +1,95 @@
-
-/* CURSOR: POINTED;
- * Ingresa el CSS del proyecto en este archivo
+/*
+ * Estilos de tu proyecto
  */
-
+ 
  * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
+  font-family: "Montserrat";
+ }
 
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  /* inicio posterior al nbar*/
+ body {
+  padding: 0;
   margin: 0 auto;
-  font-size: 15px;
-  line-height: 1.71429;
-  background-color: #18ba9a;
-  font-family: arial;
-}
-/*color navbar*/
-a {
+  overflow-x: hidden;
+ }
+ /*navbar*/
+ .navB {
+  position: fixed;
+  background-color: #2b3d4f;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  margin-top: 0px;
+ }
+ .navB h2{
+  margin-top: 25px;
+ }
+ /*titulo izquierdo*/
+ .lado-a{
+  margin-left: 80px;
+  float: left;
+  overflow: hidden;
   color: white;
-  text-decoration: none;
-}
-/*posicionamiento cursor sobre*/
-a:hover {
-  color: #05B9FF;
-}
-/*caja*/
-.link{
-  font-weight: 700;
-  padding: 21px;
-  display: inline-block;
+ }
+ /*vinculos derecha*/
+ .lado-b {
   float: right;
-}
-
-/*barra del header*/
-header{
-  position: fixed;
-  background: #2b3d4f;
-  width: 100%;
-  top: 0;
-}
-.menu{
-  padding: 14px 80px;
-  overflow: auto;
-}
-/*id que contiene la portada*/
-.imagen-center{
-  background-position: center;
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 80px;
-}
-/*textos 1 bajo la nav*/
-.text-home {
-  text-align: center;
-  margin-top: 0;
-  color: white;
-}
-.text-home{
-  font-size: 60px;
-}
-
-/*lineas bajo titulo + estrella perdi demasiado tiempo en ella y nunca quedaban iguales
-.linea1{
-    border: 2px solid white;
-    width: 10%;
-    position: inherit;
-    margin-top: 10px;
-    margin-left: 450px;
-}
-.linea2{
-    border: 2px solid white;
-    width: 10%;
-    position: inherit;
-    margin-top: -10px;
-    margin-left: 700px;
-}*/
-
-.text2{
-	color: white;
-}
-.txt { /*texto */
-/*Nunca quiso correrse, si siquiera con text-aling o poniendolo en una de las clases reutilizables*/
-  text-align: center;
-  margin-top: 30px;
-  font-size: 40px;
-  color: black;
-}
-
-/*seccion portafolio*/
-
-.portafolio{
-  background-color: white;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 100px;	
-}
-/*lineas con estrellas 2*/
-.linea3{
-    border: 2px solid black;
-    width: 10%;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 520px;
-}
-.linea4{
-    border: 2px solid black;
-    width: 10%;
-    position: absolute;
-    margin-top: -20px;
-    margin-left: 700px;
-}
-.box-services{
-  text-align: center;
+  margin-right: 40px;
+  font-size: 18px;
+ }
+ a {
   display: inline-block;
-  width: 30%;
-  margin-top: 63px;
-}
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0px;
+  padding: 30px;
+ }
+ /*posicion del cursor navbar*/
+ a:hover {
+  background-color: #1E2148;
+  height: 78px;
+ }
 
-
-/* seccion acerca */
-.title-acerca {
-    color: white;
-    font-size: 30px;
-}
-.text-acerca {
-    font-size: 20px;
-    color: white;
-}
-.section-acerca {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.button {
+ /*seccion portada*/
+ #portada{
+  background-color: #18ba9a;
+ }
+ .images {
   margin-left: 550px;
-    background-color: #18ba9a;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    margin-top: 10px;
-    color: white;
-    font-size: 15px;
-    border: solid white 1px;
-}
-
-
-
-/*Ejercicio guiado*/
-.box-services{
-  cursor: pointer;
-}
-
-.box-services:hover{
-  background-color: rgba(255,255,255,0.2);
-}
-
-/*Modal*/
-#box-services-modal{
-  background-color: #10D1A5;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-.modal{
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-/* Borde para la primera imagen, que sincermente no funciona para las ultimas porq no se ve
-#box-services-modal img{
-   border: 50px solid white;
-   }*/
-   #box-services-modal .modal-body{
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 100px;
-  }
-  /*color modal texto*/
-  #box-services-modal .modal-body h5,
-  #box-services-modal .modal-body h6{
-    color: whitesmoke;
-  }
-  #box-services-modal .modal-body h5{
-    font-size: 2em;
-  }
-  #box-services-modal .modal-body h6{
-    font-size: 1em;
-  }
-  /*posicion de X*/
-  #box-services-modal .close{
-    position: absolute;
-    top: 100px;
-    right: 600px;
-    cursor: pointer;
-  }
-
-  #box-services-modal .close img{
-    width: 40px;
-  }
-  .hide{
-    display: none;
-  }
-
+  margin-top: 150px;
+ }
+ #portada h1{
+  font-size: 70px;
+  color: white;
+  text-align: center;
+ }
+ /*linea de la derecha*/
+ .line-D{
+  border: 3px solid white;
+  width: 8%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 560px;
+ }
+ /*estrella*/
+ .stardust{
+  margin-left: 680px;
+  color: white;
+ }
+ /*linea izquierda*/
+ .line-Iz{
+  border: 3px solid white;
+  width: 8%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 705px;
+ }
+ #portada h3{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+ }
