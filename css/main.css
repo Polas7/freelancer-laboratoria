@@ -83,11 +83,42 @@ header{
     margin-top: -20px;
     margin-left: 700px;
 }
+.blanco {
+    color: white;
+}
 .text2{
 	color: white;
 }
 
-
+/*seccion portafolio*/
+#portafolio{
+	background-color: white;
+}
+/*lineas con estrellas 2*/
+.portafolio1{
+  text-align: center;
+  margin-top: 0;	
+}
+.linea3{
+    border: 2px solid black;
+    width: 10%;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 520px;
+}
+.linea4{
+    border: 2px solid black;
+    width: 10%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 700px;
+}
+.box-services{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
 
 
 
