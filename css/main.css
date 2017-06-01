@@ -19,10 +19,10 @@
 body {
   /* inicio posterior al nbar*/
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.71429;
   background-color: #18ba9a;
-  font-family: 'Raleway', sans-serif;
+  font-family: arial;
 }
 /*color navbar*/
 a {
@@ -49,17 +49,61 @@ header{
   top: 0;
 }
 .menu{
-  padding: 14px 70px;
+  padding: 14px 80px;
   overflow: auto;
 }
 /*id que contiene la portada*/
 .imagen-center{
   background-position: center;
-  background-repeat: no-repeat;
-  background-size:;
-  height: 54px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 200px;
+}
+/*textos 1 bajo la nav*/
+.text-home {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+}
+.text-home{
+  font-size: 60px;
 }
 
+/*lineas bajo titulo + estrella*/
+.linea1{
+    border: 2px solid white;
+    width: 10%;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 520px;
+}
+.linea2{
+    border: 2px solid white;
+    width: 10%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 700px;
+}
+.text2{
+	color: white;
+}
+
+
+
+
+
+
+
+
+/*boton*/
+.btn-home{
+  background: #2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
 
