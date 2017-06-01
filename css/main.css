@@ -1,3 +1,65 @@
-/*
- * Estilos de tu proyecto
+
+/* CURSOR: POINTED;
+ * Ingresa el CSS del proyecto en este archivo
  */
+
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* inicio posterior al nbar*/
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #18ba9a;
+  font-family: 'Raleway', sans-serif;
+}
+/*color navbar*/
+a {
+  color: white;
+  text-decoration: none;
+}
+/*posicionamiento cursor sobre*/
+a:hover {
+  color: #05B9FF;
+}
+/*caja*/
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+  float: right;
+}
+
+/*barra del header*/
+header{
+  position: fixed;
+  background: #2b3d4f;
+  width: 100%;
+  top: 0;
+}
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+/*id que contiene la portada*/
+.imagen-center{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:;
+  height: 54px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+
