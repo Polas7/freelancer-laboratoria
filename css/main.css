@@ -1,7 +1,6 @@
 /*
  * Estilos de tu proyecto
  */
- 
  * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -93,3 +92,86 @@
   color: white;
   margin-bottom: 50px;
  }
+
+/* Estilos para portafolio */
+.container {
+  text-align: center;/*me sirve para tambien alinear la estrella*/
+  margin-bottom: 80px; 
+    margin-top: 100px;
+}
+
+ /*linea de la derecha numero dos*/
+ .line-d{
+  border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 470px;
+ }
+
+ /*linea izquierda numero dos*/
+ .line-i{
+    border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 620px; 
+ }
+
+
+/* seccion about */
+.about {
+  background-color: #18ba9a;
+    text-align: center;
+}
+
+.acerca h2{
+  margin-top: 80px;
+    color: white;
+    font-size: 30px;
+}
+
+ /*linea de la derecha 3*/
+ .line-Derecha{
+  border: 3px solid white;
+  width: 8%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 540px;
+ }
+ /*estrella-lineas numero 3*/
+ .stardust2{
+  margin-left: 0px;
+  color: white;
+ }
+ /*linea izquierda 3*/
+ .line-Izquierda{
+  border: 3px solid white;
+  width: 8%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 680px;
+}
+
+.parrafo{
+  text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.botton {
+    background-color: #18ba9a;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    border: solid white 1px;
+    margin-bottom: 80px;
+}
+.botton:hover{
+  background-color: green;
+}
+
+
+ 
