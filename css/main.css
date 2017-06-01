@@ -57,6 +57,7 @@ header{
   background-position: center;
   text-align: center;
   margin-top: 200px;
+  margin-bottom: 80px;
 }
 /*textos 1 bajo la nav*/
 .text-home {
@@ -68,37 +69,42 @@ header{
   font-size: 60px;
 }
 
-/*lineas bajo titulo + estrella*/
+/*lineas bajo titulo + estrella perdi demasiado tiempo en ella y nunca quedaban iguales
 .linea1{
     border: 2px solid white;
     width: 10%;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 520px;
+    position: inherit;
+    margin-top: 10px;
+    margin-left: 450px;
 }
 .linea2{
     border: 2px solid white;
     width: 10%;
-    position: absolute;
-    margin-top: -20px;
+    position: inherit;
+    margin-top: -10px;
     margin-left: 700px;
 }
-.blanco {
-    color: white;
-}
+*/
 .text2{
 	color: white;
 }
+.txt { /*texto */
+  margin-left: 400px;/*Nunca quiso correrse, si siquiera con text-aling o poniendolo en una de las clases reutilizables*/
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  color: black;
+}
 
 /*seccion portafolio*/
-#portafolio{
-	background-color: white;
-}
-/*lineas con estrellas 2*/
-.portafolio1{
+
+
+.portafolio{
+  background-color: white;
   text-align: center;
   margin-top: 0;	
 }
+/*lineas con estrellas 2*/
 .linea3{
     border: 2px solid black;
     width: 10%;
