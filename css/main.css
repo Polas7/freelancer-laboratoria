@@ -13,10 +13,6 @@
   margin: 0 auto;
   overflow-x: hidden;
  }
- .validar{
-  font-size: 
-  color: blue;
- }
  /*navbar*/
  .navB {
   position: fixed;
@@ -281,3 +277,76 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
+
+
+
+
+
+
+
+
+/*modal*/
+.box-services{
+  cursor: pointer;
+}
+
+.box-services:hover{
+  background-color: grey;
+}
+/* Trate de que pusiera un fondo con el hover, no funciono :P;
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.box-services:hover{
+  bottom: 0;
+  height: 100%;
+}*/
+
+
+/*Modal*/
+#box-services-modal{
+  background-color: #10D1A5;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+  #box-services-modal .modal-body{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+  }
+  /*posicion de X*/
+  #box-services-modal .close{
+    position: absolute;
+    cursor: pointer;
+    top: 100px;
+    right: 40px;
+    width: 100px;
+    margin-right: 300px;
+  }
+
+  #box-services-modal .close img{
+    width: 40px;
+  }
+  .hide{
+    display: none;
+  }

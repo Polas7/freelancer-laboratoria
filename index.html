@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Freelancer</title>
+    <title>Bootstrap</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
 
     <!-- Enlaza aquí tu CSS común y de tu proyecto -->
@@ -11,7 +11,7 @@
     <!--fuentes-->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="assets/images/favicon.png"/>
 </head>
 <body><!--NavBar-->
     <header class="navB">
@@ -47,29 +47,30 @@
       <div class="line-d"></div>
       <p><i class="fa fa-star stardust-porta" aria-hidden="true"></i></p>
       <div class="line-i"></div>
-
+      <!--imagenes-->
       <div class="row">
-        <div class="col-4 ">
+        <div id="box-services-modal" class="hide"></div>
+        <div class="col-4 box-services">
             <img src="assets/images/portfolio/cabin.png" alt="#" class="img-responsive">
             <div class=""></div>
         </div>
-        <div class="col-4 ">
+        <div class="col-4 box-services">
             <img src="assets/images/portfolio/cake.png" alt="#" class="img-responsive">
-            <div class=""></div>
+            <div class="overlay"></div>
         </div>
-        <div class="col-4 ">
+        <div class="col-4 box-services">
             <img src="assets/images/portfolio/circus.png" alt="#" class="img-responsive">
             <div class=""></div>
         </div>
-        <div class="col-4 ">
+        <div class="col-4 box-services">
             <img src="assets/images/portfolio/game.png" alt="#" class="img-responsive">
             <div class=""></div>
         </div>
-        <div class="col-4 ">
+        <div class="col-4 box-services">
             <img src="assets/images/portfolio/safe.png" alt="#" class="img-responsive">
             <div class=""></div>
         </div>
-        <div class="col-4">
+        <div class="col-4 box-services">
             <img src="assets/images/portfolio/submarine.png" alt="#" class="img-responsive">
             <div class=""></div>
         </div>
@@ -126,21 +127,22 @@
                     </div>
                 <div class="col-4">
                         <h3 class="text-uppercase link">Around the web</h3>
-                        <!--iconos-->
+                        <!--iconos, no funcionaron los link dentro, si funcionan fuera pero me desonfiguran todo-->
                         <div class="media">
-                            <i class="fa fa-facebook iconos" aria-hidden="true"></i></div>
+                            <i class="fa fa-facebook iconos" href="https://www.facebook.com/" aria-hidden="true"></i></div>
                         <div class="media">
-                            <i class="fa fa-google-plus iconos" aria-hidden="true"></i> </div>
+                            <i class="fa fa-google-plus iconos" href="https://www.google.com" aria-hidden="true"></i> </div>
                         <div class="media">
-                            <i class="fa fa-twitter iconos" aria-hidden="true"></i></div>
+                            <i class="fa fa-twitter iconos" href="https://twitter.com/" aria-hidden="true"></i></div>
                         <div class="media">
-                            <i class="fa fa-linkedin iconos" aria-hidden="true"></i></div>                        
+                            <i class="fa fa-linkedin iconos" href="https://cl.linkedin.com/" aria-hidden="true"></i></div>
                         <div class="media">
-                            <i class="fa fa-dribbble iconos" aria-hidden="true"></i></div>                        
+                            <i class="fa fa-dribbble iconos" href="https://dribbble.com/" aria-hidden="true"></i></div>                        
                     </div>
                     <div class="col-4">
                         <h3 class="text-uppercase link">About freelance</h3>
-                        <p class="freelancer">Freelance is a free to use, open source<br> Bootstrap theme created by<br><span class="hipervinculo"> Start Bootstrap</span></p>
+
+                        <p href="http://getbootstrap.com/" class="freelancer">Freelance is a free to use, open source<br> Bootstrap theme created by<br><span class="hipervinculo"> Start Bootstrap</span></p>
                 </div>
             </div>
     </section>
