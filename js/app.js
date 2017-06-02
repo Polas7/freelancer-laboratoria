@@ -22,6 +22,7 @@ boton.addEventListener('click', validar);
     	mensaje.value = "● Please enter your message.";
     }
 };
+
 /*modal*/
 (function main(){
 	var boxes = Array.from(document.getElementsByClassName("box-services"));
