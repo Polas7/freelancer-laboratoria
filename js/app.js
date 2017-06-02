@@ -8,11 +8,7 @@ boton.addEventListener('click', validar);
  	var phoneNumber = document.getElementById("phone");
  	var message = document.getElementById("textarea");
  	var contenido = "";
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 79d2ddca9a2c2e3874fc8ce58e911f6408436e6a
     if (name.value === "") {
     	name.value = "● Please enter your name.";
     }
@@ -26,7 +22,6 @@ boton.addEventListener('click', validar);
     	mensaje.value = "● Please enter your message.";
     }
 };
-
 /*modal*/
 (function main(){
 	var boxes = Array.from(document.getElementsByClassName("box-services"));

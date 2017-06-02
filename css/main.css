@@ -277,10 +277,12 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
 /*modal*/
 .box-services{
   cursor: pointer;
 }
+
 .box-services:hover{
   background-color: grey;
 }
@@ -305,7 +307,7 @@ footer {
 
 /*Modal*/
 #box-services-modal{
-  background-color: #10D1A5;
+  background-color: red;
   width: 100%;
   height: 100%;
   position: fixed;
