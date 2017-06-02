@@ -170,8 +170,110 @@
     margin-bottom: 80px;
 }
 .botton:hover{
-  background-color: green;
+  background-color: #009485;
 }
 
+/* formulario */
+.contacto h2{
+    text-align: center;
+}
+/*estrellita*/
+.contacto p{
+    text-align: center;
+}
+/*linea de la derecha 4*/
+ .line1{
+  border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 540px;
+ }
+ /*linea izquierda 4*/
+ .line2{
+  border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 680px;
+}
 
- 
+input[type=text] {
+    width: 130%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #E1DBD9;
+}
+
+textarea {
+    width: 130%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #E1DBD9;
+    border-bottom: 1px;
+    ;
+}
+
+.button{
+    background-color: #18ba9a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    float: left;
+}
+.button:hover{
+  background-color: #2b3d4f;
+}
+
+/* Estilos para el footer */
+.footer {
+    margin-top: 60px;
+    text-align: center;
+    background-color: #2b3d4f;
+    color: white;
+}
+.footer h3{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.footer p{
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+.freelancer {
+    font-size: 20px;
+}
+.iconos{
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*estilos y circulo de iconos*/
+.media{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+}
+/*texto con link */
+.hipervinculo {
+    color: #18ba9a;
+    cursor: pointer;
+}
+footer {
+    background-color: #233140;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
