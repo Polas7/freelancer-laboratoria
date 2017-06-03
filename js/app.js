@@ -8,7 +8,10 @@ boton.addEventListener('click', validar);
  	var phoneNumber = document.getElementById("phone");
  	var message = document.getElementById("textarea");
  	var contenido = "";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 24a80bfbb5b612af0291aa5f2272eb5c01927786
     if (name.value === "") {
     	name.value = "● Please enter your name.";
     }
