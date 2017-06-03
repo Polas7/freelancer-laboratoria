@@ -111,7 +111,7 @@
 
  /*linea izquierda numero dos*/
  .line-i{
-    border: 3px solid black;
+  border: 3px solid black;
   width: 8%;
   position: absolute;
   margin-top: -13px;
@@ -133,9 +133,9 @@
 
  /*linea de la derecha 3*/
  .line-Derecha{
+  position: absolute;
   border: 3px solid white;
   width: 8%;
-  position: absolute;
   margin-top: 5px;
   margin-left: 540px;
  }
@@ -146,9 +146,9 @@
  }
  /*linea izquierda 3*/
  .line-Izquierda{
+  position: absolute;
   border: 3px solid white;
   width: 8%;
-  position: absolute;
   margin-top: -13px;
   margin-left: 680px;
 }
@@ -183,17 +183,17 @@
 }
 /*linea de la derecha 4*/
  .line1{
+  position: absolute;
   border: 3px solid black;
   width: 8%;
-  position: absolute;
-  margin-top: 6px;
+   margin-top: 6px;
   margin-left: 540px;
  }
  /*linea izquierda 4*/
  .line2{
-  border: 3px solid black;
-  width: 8%;
   position: absolute;
+  border: 3px solid black;
+  width: 8%;  
   margin-top: -13px;
   margin-left: 680px;
 }
@@ -306,7 +306,7 @@ footer {
 
 /*Modal*/
 #box-services-modal{
-  background-color: red;
+  background-color: white;
   width: 100%;
   height: 100%;
   position: fixed;
